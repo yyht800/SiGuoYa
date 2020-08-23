@@ -17,14 +17,25 @@ Android中UI部分一直是自己知识的薄弱点，不成体系，逻辑上�
     px / density = dp，DPI / 160 = density，所以最终的公式是 px / (DPI / 160) = dp。 虽然官方推荐使用的是dp，他也能解决大部分的屏幕适配问题，但是同时也存在两个比较大的问题。
     1. **不一致性**。因为 dpi 与实际 ppi 的差异性，导致在相同分辨率的手机上，控件的实际大小会有所不同。（这是主要问题）
     2. **效率**。设计师的设计稿都是以 px 为单位的，开发人员为了 UI 适配，需要手动通过百分比估算出 dp 值。（当然现在一些工具已经帮我们做了这一步了）
-   
+
+- **主流的适配方案**
+  1. [smallestWidth 限定符适配方案](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650826381&idx=1&sn=5b71b7f1654b04a55fca25b0e90a4433&chksm=80b7b213b7c03b0598f6014bfa2f7de12e1f32ca9f7b7fc49a2cf0f96440e4a7897d45c788fb&scene=21#wechat_redirect)当系统识别到手机的smallestWidth值时，就会自动去寻找和目标数据最近的资源文件的尺寸。
+  2. [今日头条适配方案](https://mp.weixin.qq.com/s/oSBUA7QKMWZURm1AHMyubA)通过反射修正系统的 density 值;
+
 - **mipmap和drawable职责的区分**
   
   谷歌建议将启动图标放置在mipmap下，而将其他资源图片放置在drawable对应目录下，
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="https://github.com/yyht800/SiGuoYa/blob/master/res/drawable/drawable%E4%BB%8B%E7%BB%8D.png?raw=true">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">密度对应的表格</div>
+</center>
 
-  
-
-#### 2.1.3 刘海屏适配
 
 
 ### 三
