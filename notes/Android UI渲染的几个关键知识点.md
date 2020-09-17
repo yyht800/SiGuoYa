@@ -111,9 +111,12 @@ Android 系统为了弥补跟 iOS 的差距，在每个版本都做了大量的�
     padding: 2px;">硬件加速绘制</div>
 </center>
 
+- Surface。如上文所说的可以说是一张画纸，每个View都由某一个窗口管理，而每个窗口都有一个Surface关联。
+- 
 
 ### 参考文献
 1. [Android开发高手课 20-21 ui 优化](https://time.geekbang.org/column/article/80921)
-2. [Google官方-图形部分文档](https://source.android.com/devices/graphics)
-3. [Google官方开发者-设备兼容性](https://developer.android.com/guide/practices/compatibility?hl=zh-cn)
-4. [smallestWidth 限定符适配方案](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650826381&idx=1&sn=5b71b7f1654b04a55fca25b0e90a4433&chksm=80b7b213b7c03b0598f6014bfa2f7de12e1f32ca9f7b7fc49a2cf0f96440e4a7897d45c788fb&scene=21#wechat_redirect)
+2. 《Android内核剖析》--屏幕绘图基础
+3. [Google官方-图形部分文档](https://source.android.com/devices/graphics)
+4. [Google官方开发者-设备兼容性](https://developer.android.com/guide/practices/compatibility?hl=zh-cn)
+5. [smallestWidth 限定符适配方案](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650826381&idx=1&sn=5b71b7f1654b04a55fca25b0e90a4433&chksm=80b7b213b7c03b0598f6014bfa2f7de12e1f32ca9f7b7fc49a2cf0f96440e4a7897d45c788fb&scene=21#wechat_redirect)
