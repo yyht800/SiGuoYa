@@ -112,7 +112,10 @@ Android 系统为了弥补跟 iOS 的差距，在每个版本都做了大量的�
 </center>
 
 - Surface。如上文所说的可以说是一张画纸，每个View都由某一个窗口管理，而每个窗口都有一个Surface关联。
-- 
+- Graphic Buffer。SurfaceFlinger 会帮我们托管一个BufferQueue，我们从 BufferQueue 中拿到 Graphic Buffer，然后通过 Canvas 以及 Skia 将绘制内容栅格化到上面。
+- SurfaceFlinger。通过 Swap Buffer 把 Front Graphic Buffer 的内容交给 SurfaceFinger，最后硬件合成器 Hardware Composer 合成并输出到显示屏。
+
+硬件加速绘制与软件绘制整个流程差异非常大，最核心就是我们通过 GPU 完成 Graphic Buffer 的内容绘制。此外硬件绘制还引入了一个 DisplayList 的概念，每个 View 内部都有一个 DisplayList，当某个 View 需要重绘时，将它标记为 Dirty。
 
 ### 参考文献
 1. [Android开发高手课 20-21 ui 优化](https://time.geekbang.org/column/article/80921)
@@ -120,3 +123,5 @@ Android 系统为了弥补跟 iOS 的差距，在每个版本都做了大量的�
 3. [Google官方-图形部分文档](https://source.android.com/devices/graphics)
 4. [Google官方开发者-设备兼容性](https://developer.android.com/guide/practices/compatibility?hl=zh-cn)
 5. [smallestWidth 限定符适配方案](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650826381&idx=1&sn=5b71b7f1654b04a55fca25b0e90a4433&chksm=80b7b213b7c03b0598f6014bfa2f7de12e1f32ca9f7b7fc49a2cf0f96440e4a7897d45c788fb&scene=21#wechat_redirect)
+6. [Android图形显示系统（一）](https://blog.csdn.net/a740169405/article/details/70548443)
+7. [Android N中UI硬件渲染（hwui）的HWUI_NEW_OPS(基于Android 7.1)](https://blog.csdn.net/jinzhuojun/article/details/54234354)
