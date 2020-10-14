@@ -155,3 +155,5 @@ Project Butter 主要包含两个组成部分，一个是 VSYNC，一个是 Trip
 5. [smallestWidth 限定符适配方案](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650826381&idx=1&sn=5b71b7f1654b04a55fca25b0e90a4433&chksm=80b7b213b7c03b0598f6014bfa2f7de12e1f32ca9f7b7fc49a2cf0f96440e4a7897d45c788fb&scene=21#wechat_redirect)
 6. [Android图形显示系统（一）](https://blog.csdn.net/a740169405/article/details/70548443)
 7. [Android N中UI硬件渲染（hwui）的HWUI_NEW_OPS(基于Android 7.1)](https://blog.csdn.net/jinzhuojun/article/details/54234354)
+8. [直面底层技术： Android 之 VSYNC、 Choreographer 起源！
+](https://mp.weixin.qq.com/s/c4Z2PZDLR219zhKbMjWdjA)
