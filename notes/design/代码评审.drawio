@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2021-01-12T05:30:22.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X_i9CccrtQZsBh7rabXu" version="14.1.8" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1186" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="KhqYshjtL94zOSatDWX1-5" value="代码送审者" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="60" width="200" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-5" source="KhqYshjtL94zOSatDWX1-7" target="KhqYshjtL94zOSatDWX1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="KhqYshjtL94zOSatDWX1-5">
+          <mxGeometry x="60" y="50" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-5" source="KhqYshjtL94zOSatDWX1-8" target="KhqYshjtL94zOSatDWX1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-8" value="代码自查" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="KhqYshjtL94zOSatDWX1-5">
+          <mxGeometry x="60" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-10" value="代码送审" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="KhqYshjtL94zOSatDWX1-5">
+          <mxGeometry x="60" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-5" source="KhqYshjtL94zOSatDWX1-17" target="KhqYshjtL94zOSatDWX1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-17" value="代码修改" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="KhqYshjtL94zOSatDWX1-5">
+          <mxGeometry x="60" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-6" value="代码审核者" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="60" width="200" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-6" source="KhqYshjtL94zOSatDWX1-13" target="KhqYshjtL94zOSatDWX1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-13" value="接收请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KhqYshjtL94zOSatDWX1-6">
+          <mxGeometry x="60" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-6" source="KhqYshjtL94zOSatDWX1-19" target="KhqYshjtL94zOSatDWX1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-19" value="审查代码" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KhqYshjtL94zOSatDWX1-6">
+          <mxGeometry x="55" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhqYshjtL94zOSatDWX1-6" source="KhqYshjtL94zOSatDWX1-22" target="KhqYshjtL94zOSatDWX1-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-22" value="提交代码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KhqYshjtL94zOSatDWX1-6">
+          <mxGeometry x="60" y="333.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-24" value="合并代码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="KhqYshjtL94zOSatDWX1-6">
+          <mxGeometry x="60" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KhqYshjtL94zOSatDWX1-10" target="KhqYshjtL94zOSatDWX1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KhqYshjtL94zOSatDWX1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KhqYshjtL94zOSatDWX1-19" target="KhqYshjtL94zOSatDWX1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
