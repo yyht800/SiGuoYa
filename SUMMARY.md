@@ -2,6 +2,8 @@
 
 * [导读](README.md)
 * [Android基础](notes/README.md)
+  * [四大组件](notes/si-da-zu-jian/README.md)
+    * [Activity](notes/si-da-zu-jian/activity.md)
   * [Systrace相关的介绍](notes/systrace-xiang-guan-de-jie-shao.md)
   * [Android 中Handler机制的总结](notes/android-zhong-handler-ji-zhi-de-zong-jie.md)
   * [Android UI渲染的几个关键知识点](notes/android-ui-xuan-ran-de-ji-ge-guan-jian-zhi-shi-dian.md)
@@ -21,8 +23,8 @@
   * [Android进阶解密第六章——AMS（基于Android10）](notes/android-jin-jie-jie-mi-di-liu-zhang-ams.md)
   * [Android 进阶解密第三章——App的启动过程](notes/android-jin-jie-jie-mi-di-san-zhang-app-de-qi-dong-guo-cheng.md)
 * [Android进阶](android-jin-jie.md)
-
-## 算法分区
-
-* [Untitled](suan-fa-fen-qu/untitled.md)
+* [算法分区](suan-fa-fen-qu.md)
+* [Java分区](java-fen-qu.md)
+* [设计模式](she-ji-mo-shi.md)
+* [网络部分](wang-luo-bu-fen.md)
 
