@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T10:01:44.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="01m3jS2hoQx9VDYGqCP8" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T10:13:55.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jxsel7YCbvnSxM4kylc5" version="14.8.2" type="github">
   <diagram id="nYQA_SCFP9z7AsmTdMuE" name="第 1 页">
     <mxGraphModel dx="1395" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -124,7 +124,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pK-iJ0P--daHXMUOZHyA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="pK-iJ0P--daHXMUOZHyA-35" target="pK-iJ0P--daHXMUOZHyA-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="885" />
+              <mxPoint x="510" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="pK-iJ0P--daHXMUOZHyA-35" target="pK-iJ0P--daHXMUOZHyA-53">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="pK-iJ0P--daHXMUOZHyA-35" target="pK-iJ0P--daHXMUOZHyA-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;" edge="1" parent="1" source="pK-iJ0P--daHXMUOZHyA-35" target="pK-iJ0P--daHXMUOZHyA-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="885" />
+              <mxPoint x="510" y="1095" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pK-iJ0P--daHXMUOZHyA-35" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;AccountActivity&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;fontColor=#FFFFFF;labelBackgroundColor=none;strokeColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="220" y="860" width="260" height="50" as="geometry" />
@@ -138,11 +157,8 @@
         <mxCell id="pK-iJ0P--daHXMUOZHyA-38" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;i&gt;三方登录授权SDK&lt;/i&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;strokeColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="820" y="710" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pK-iJ0P--daHXMUOZHyA-40" value="&lt;font color=&quot;#000000&quot;&gt;手机号&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="635" y="830" width="50" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="pK-iJ0P--daHXMUOZHyA-41" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;NewModifyPhoneActivity&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;strokeColor=#CCE5FF;" vertex="1" parent="1">
-          <mxGeometry x="560" y="860" width="230" height="50" as="geometry" />
+          <mxGeometry x="560" y="790" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pK-iJ0P--daHXMUOZHyA-43" value="微信或支付宝登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="866" y="770" width="110" height="20" as="geometry" />
@@ -155,6 +171,24 @@
         </mxCell>
         <mxCell id="pK-iJ0P--daHXMUOZHyA-52" value="完善个人信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1152" y="770" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-53" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;ModifyPasswordActivity&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;strokeColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="861" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-54" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;SetPwdActivity&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;strokeColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="820" y="970" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-58" value="修改密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="890" y="917" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-59" value="设置密码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="895" y="1030" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-60" value="绑定手机" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="850" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pK-iJ0P--daHXMUOZHyA-61" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;退出登录&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1070" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
