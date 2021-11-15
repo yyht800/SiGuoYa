@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T03:51:03.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.6.8" etag="7-C5ggXM66E3me3dHkEq" type="github"><diagram id="XYsiL7AF8dQi_BBWsbHA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-15T07:56:42.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="nqdFi48fGbUjGIoqVNPV" version="15.6.8" type="github">
+  <diagram id="XYsiL7AF8dQi_BBWsbHA" name="第 1 页">
+    <mxGraphModel dx="1186" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fWGid07xx98V1kkh5st6-1" value="«interface»&lt;br&gt;&lt;b&gt;InitCallback&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fWGid07xx98V1kkh5st6-2" value="«interface»&lt;br&gt;&lt;b&gt;LoginCallback&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fWGid07xx98V1kkh5st6-4" value="LoginManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="fWGid07xx98V1kkh5st6-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fWGid07xx98V1kkh5st6-4">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="fWGid07xx98V1kkh5st6-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="fWGid07xx98V1kkh5st6-4">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fWGid07xx98V1kkh5st6-7" value="+ getInstance():  instance" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fWGid07xx98V1kkh5st6-4">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
