@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T11:34:27.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="CbIMeSJMHOGz9rycHOoG" version="16.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-07T01:45:06.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="gObR_vjvxFQNLBQ5_1a2" version="16.2.1" type="github" pages="3">
   <diagram id="u__dcUEoVm3xyo9EvBLi" name="第 1 页">
     <mxGraphModel dx="1186" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -427,10 +427,8 @@
         <mxCell id="oT9Z2OkehyOciY0bffM1-3" value="注册桥接模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oT9Z2OkehyOciY0bffM1-1">
           <mxGeometry x="366" y="126" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oT9Z2OkehyOciY0bffM1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oT9Z2OkehyOciY0bffM1-1" source="oT9Z2OkehyOciY0bffM1-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="721" y="151" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="oT9Z2OkehyOciY0bffM1-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="oT9Z2OkehyOciY0bffM1-1" source="oT9Z2OkehyOciY0bffM1-5" target="oT9Z2OkehyOciY0bffM1-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oT9Z2OkehyOciY0bffM1-5" value="将模块添加到模块集中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oT9Z2OkehyOciY0bffM1-1">
           <mxGeometry x="536" y="126" width="110" height="50" as="geometry" />
@@ -476,6 +474,9 @@
         </mxCell>
         <mxCell id="oT9Z2OkehyOciY0bffM1-28" value="模块存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oT9Z2OkehyOciY0bffM1-1">
           <mxGeometry x="219" y="671" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oT9Z2OkehyOciY0bffM1-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="oT9Z2OkehyOciY0bffM1-1">
+          <mxGeometry x="725" y="126" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
