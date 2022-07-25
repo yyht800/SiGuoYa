@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-07-25T08:32:17.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="G9cdLJ-28aC06WK0_fpp" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-25T08:39:03.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YpytGIHpmmHcYRAeVx7a" version="16.6.4" type="github" pages="2">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1694" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="77e6c97f196da883-1" value="生成二维码" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;swimlaneFillColor=none;" parent="1" vertex="1">
+        <mxCell id="77e6c97f196da883-1" value="生成二维码" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;swimlaneFillColor=none;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="70" y="40" width="820" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="门店" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-2" value="门店" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="680" as="geometry" />
         </mxCell>
         <mxCell id="jsQjugJUirjlBdyCXC1S-23" value="测试门店" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
@@ -16,7 +16,7 @@
         <mxCell id="jsQjugJUirjlBdyCXC1S-24" value="普通门店" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-2">
           <mxGeometry x="30" y="260" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="权限因素" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-3" value="权限因素" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="680" as="geometry" />
         </mxCell>
         <mxCell id="jsQjugJUirjlBdyCXC1S-27" value="&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;menlo&amp;#34; , monospace ; font-size: 12pt&quot;&gt;蓝牙&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;fillColor=#CCE5FF;strokeColor=#CCE5FF;" vertex="1" parent="77e6c97f196da883-3">
@@ -28,13 +28,13 @@
         <mxCell id="jsQjugJUirjlBdyCXC1S-36" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="130" y="90" width="20" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-5" value="判断条件" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-5" value="判断条件" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="160" height="680" as="geometry" />
         </mxCell>
         <mxCell id="jsQjugJUirjlBdyCXC1S-37" value="是否具备" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="31" y="125" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-6" value="门店列表" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-6" value="门店列表" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="480" y="20" width="160" height="680" as="geometry" />
         </mxCell>
         <mxCell id="jsQjugJUirjlBdyCXC1S-55" value="附近门店数量" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="77e6c97f196da883-6">
@@ -43,7 +43,7 @@
         <mxCell id="jsQjugJUirjlBdyCXC1S-67" value="门店列表页" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="20" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-7" value="二维码页面" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-7" value="二维码页面" style="swimlane;html=1;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="180" height="680" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-18" value="生成二维码" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-7" vertex="1">
@@ -128,6 +128,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Yeqgl_5nrwF1MhxtuFsq" name="第 2 页">
+    <mxGraphModel dx="1186" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="YZedreCd7jzBVF1wIk_c-0" />
+        <mxCell id="YZedreCd7jzBVF1wIk_c-1" parent="YZedreCd7jzBVF1wIk_c-0" />
       </root>
     </mxGraphModel>
   </diagram>
